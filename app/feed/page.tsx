@@ -1,11 +1,11 @@
 import Link from 'next/link'
 
-export default function Home() {
+export default function Page() {
   return <>
-    <h1>http's `Vary` has not `Next-Url`</h1>
+    <h1>Feed page</h1>
     <ul>
       <li>
-        <Link href="/feed">feed</Link>
+        <Link href="/">top</Link>
       </li>
       <li>
         <Link href="/photo">photo</Link>
